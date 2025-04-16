@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Science Experiment Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        
+        .navbar {
+            background: rgba(0, 0, 0, 0.7);
+            padding: 15px;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+        }
+        
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            font-size: 18px;
+            margin: 0 10px;
+            display: inline-block;
+        }
+        
+        .navbar a:hover {
+            background: #ffcc00;
+            color: black;
+            border-radius: 5px;
+        }
+        
+        .hero {
+            background: url('science-banner.jpg') no-repeat center center/cover;
+            height: 60vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        /* Bagong CSS para sa logo */
+        
+        .hero-logo {
+            width: 50%;
+            max-width: 400px;
+        }
+        
+        .hero-logo img {
+            width: 100%;
+        }
+        
+        .category-section {
+            padding: 40px;
+        }
+        
+        .categories {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        
+        .category {
+            width: 200px;
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        .category img {
+            width: 100%;
+            border-radius: 5px;
+        }
+        
+        .category h3 {
+            color: #333;
+        }
+        
+        .featured {
+            padding: 40px;
+            background: white;
+        }
+        
+        .featured img {
+            width: 80%;
+            border-radius: 10px;
+        }
+        
+        .footer {
+            background: black;
+            color: white;
+            padding: 15px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <a href="Home.html">Home</a>
+        <a href="Science Experiment.html">Science Experiment</a>
+        <a href="About Us.html">About Us</a>
+        <a href="Developers.html">Developers</a>
+    </div>
+
+    <div class="hero">
+        <!-- Inalis ang text at pinalitan ng logo -->
+        <div class="hero-logo">
+            <img src="487545369_670570412033839_4852960218640266192_n (2).jpg" alt="Science Experiment Logo">
+        </div>
+    </div>
+
+    <section class="category-section">
+        <h2>Explore Science Categories</h2>
+        <div class="categories">
+            <div class="category">
+                <img src="chemistry.jpg" alt="Chemistry">
+                <h3>Chemistry</h3>
+            </div>
+            <div class="category">
+                <img src="physics.jpg" alt="Physics">
+                <h3>Physics</h3>
+            </div>
+            <div class="category">
+                <img src="biology.jpg" alt="Biology">
+                <h3>Biology</h3>
+            </div>
+        </div>
+    </section>
+
+    <section class="featured">
+        <h2>Featured Experiment</h2>
+        <img src="experiment.jpg" alt="Featured Science Experiment">
+        <p>Try this fun and easy experiment at home!</p>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2025 Science Experiment Website. Developed by our team.</p>
+    </footer>
+
+</body>
+
+</html>
